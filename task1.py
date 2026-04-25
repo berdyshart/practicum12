@@ -8,4 +8,5 @@ def pownum(a: float, n: int) -> float:
 
     if n == 1:
         return a
+    
     return a * pownum(a, n - 1)
