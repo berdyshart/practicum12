@@ -8,4 +8,5 @@ def combin(n: int, k: int) -> float:
 
     if k == 0:
         return 1
+    
     return n / k * combin(n - 1, k - 1)
