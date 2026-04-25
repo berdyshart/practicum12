@@ -10,6 +10,7 @@ def maxlist(a: list) -> float:
             a[ind] = (ind, a[ind])
     if len(a) == 1:
         return a[0][0]
+    
     if a[0][1] > a[-1][1]:
         a = a[1:-1] + [a[0]]
     else:
